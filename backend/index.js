@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 
 // Enable CORS
 app.use(cors({
-  origin: process.env.CORS_ORIGIN ,
+  origin: 'https://pdf-lhyact0vd-aseema-thasneems-projects.vercel.app',
   methods: 'GET,POST,PUT,PATCH,DELETE',
   credentials: true
 }));
